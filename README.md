@@ -4,6 +4,8 @@
 
 `layout_grids` is a Dart/Flutter package that makes it easy to overlay several types of grids on your UI, to make sure that it lines up nicely with your design's grid system.
 
+<img src="./example/images/grids_example.png" alt="Grids example" width="300"/>
+
 ## Installation
 
 To use this plugin in your project, add `layout_grids` as a dependency in your pubspec.yaml file.
