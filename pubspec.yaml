@@ -1,7 +1,6 @@
 name: layout_grids
 description: Visual aids for grid systems, which can be used to ensure that your UI conforms to your desired grid layout.
 version: 0.1.0
-author: Bryson Thill
 homepage: https://github.com/doppio/layout_grids
 
 environment:
