@@ -1,5 +1,7 @@
 # layout_grids
 
+![Pub Version](https://img.shields.io/pub/v/layout_grids)
+
 `layout_grids` is a Dart/Flutter package that makes it easy to overlay several types of grids on your UI, to make sure that it lines up nicely with your design's grid system.
 
 ## Installation
