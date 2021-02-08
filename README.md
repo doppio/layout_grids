@@ -1,14 +1,45 @@
 # layout_grids
 
-A new Flutter package project.
+`layout_grids` is a Dart/Flutter package that makes it easy to overlay several types of grids on your UI, to make sure that it lines up nicely with your design's grid system.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+To use this plugin in your project, add `layout_grids` as a dependency in your pubspec.yaml file.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+Wrap the UI that should conform to your grid system with a `GridOverlay`. This widget takes a list of `grids` and an optional `enabled` parameter, which defaults to `true`.
+
+## Supported Grid Types
+
+This package supports various layout grids that can be visualized in UI/UX tools like Figma and Adobe XD.
+
+### Pixel Grids
+
+Simple square grids with a fixed cell size.
+
+* `PixelGrid`
+
+### Flex Grids
+Flex grids are composed of flexible bands (rows or columns) with a fixed count, gutter size, and margin size. After allocating space for the margins and gutters, the bands expand to fill the remaining space.
+
+* `FlexRowGrid`
+* `FlexColumnGrid`
+
+### Fixed Band Grids
+A grid of bands (rows or columns) with a fixed size, count, and gutter size. An alignment and offset can optionally be specified, but the grid positioning defaults to centered.
+
+* `FixedRowGrid`
+* `FixedColumnGrid`
+
+## Example
+
+**TODO**
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
