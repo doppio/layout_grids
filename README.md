@@ -4,7 +4,7 @@
 
 `layout_grids` is a Dart/Flutter package that makes it easy to overlay several types of grids on your UI, to make sure that it lines up nicely with your design's grid system.
 
-<img src="./example/images/grids_example.png" alt="Grids example" width="300"/>
+<img src="https://github.com/doppio/layout_grids/raw/main/example/images/grids_example.png" alt="Grids example" width="300"/>
 
 ## Installation
 
@@ -36,7 +36,7 @@ GridOverlay(
     child: CounterApp(),
 );
 ```
-<img src="./images/pixel_grid_example.png" alt="Pixel grid example" width="300"/>
+<img src="https://github.com/doppio/layout_grids/raw/main/images/pixel_grid_example.png" alt="Pixel grid example" width="300"/>
 
 ### Flex Grids
 Flex grids are composed of flexible bands (rows or columns) with a fixed count, gutter size, and margin size. After allocating space for the margins and gutters, the bands expand to fill the remaining space.
@@ -58,7 +58,7 @@ GridOverlay(
     child: CounterApp(),
 );
 ```
-<img src="./images/flex_grid_example.png" alt="Flex grid example" width="300"/>
+<img src="https://github.com/doppio/layout_grids/raw/main/images/flex_grid_example.png" alt="Flex grid example" width="300"/>
 
 ### Fixed Band Grids
 A grid of bands (rows or columns) with a fixed size, count, and gutter size. An alignment and offset can optionally be specified, but the grid positioning defaults to centered.
@@ -82,7 +82,7 @@ GridOverlay(
 );
 ```
 
-<img src="./images/fixed_grid_example.png" alt="Fixed grid example" width="300"/>
+<img src="https://github.com/doppio/layout_grids/raw/main/images/fixed_grid_example.png" alt="Fixed grid example" width="300"/>
 
 ## Example
 
