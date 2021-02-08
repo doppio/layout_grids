@@ -32,7 +32,7 @@ GridOverlay(
     child: CounterApp(),
 );
 ```
-<img src="./docs/images/pixel_grid_example.png" alt="Pixel grid example" width="300"/>
+<img src="./images/pixel_grid_example.png" alt="Pixel grid example" width="300"/>
 
 ### Flex Grids
 Flex grids are composed of flexible bands (rows or columns) with a fixed count, gutter size, and margin size. After allocating space for the margins and gutters, the bands expand to fill the remaining space.
@@ -54,7 +54,7 @@ GridOverlay(
     child: CounterApp(),
 );
 ```
-<img src="./docs/images/flex_grid_example.png" alt="Flex grid example" width="300"/>
+<img src="./images/flex_grid_example.png" alt="Flex grid example" width="300"/>
 
 ### Fixed Band Grids
 A grid of bands (rows or columns) with a fixed size, count, and gutter size. An alignment and offset can optionally be specified, but the grid positioning defaults to centered.
@@ -78,7 +78,7 @@ GridOverlay(
 );
 ```
 
-<img src="./docs/images/fixed_grid_example.png" alt="Fixed grid example" width="300"/>
+<img src="./images/fixed_grid_example.png" alt="Fixed grid example" width="300"/>
 
 ## Example
 
