@@ -8,8 +8,8 @@ class PixelGrid extends Grid {
 
   const PixelGrid({
     this.cellSize = 8.0,
-    Color color,
-    Key key,
+    Color? color,
+    Key? key,
   }) : super(
           key: key,
           color: color,
@@ -33,8 +33,8 @@ class _PixelGridPainter extends CustomPainter {
   final Paint _gridPaint;
 
   _PixelGridPainter({
-    @required this.gridSize,
-    @required this.color,
+    required this.gridSize,
+    required this.color,
   }) : _gridPaint = Paint()..color = color;
 
   @override

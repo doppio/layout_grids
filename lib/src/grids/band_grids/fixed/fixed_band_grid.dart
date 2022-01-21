@@ -18,11 +18,11 @@ class FixedBandGrid extends BandGrid {
   final GridAlignment alignment;
 
   const FixedBandGrid({
-    @required Color color,
-    @required Axis axis,
-    @required int count,
-    @required double gutter,
-    @required this.size,
+    required Color? color,
+    required Axis axis,
+    required int count,
+    required double? gutter,
+    required this.size,
     this.offset = 0.0,
     this.alignment = GridAlignment.center,
   }) : super(
