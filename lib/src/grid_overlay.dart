@@ -12,10 +12,10 @@ class GridOverlay extends StatelessWidget {
   final bool enabled;
 
   const GridOverlay({
-    @required this.grids,
-    @required this.child,
+    required this.grids,
+    required this.child,
     this.enabled = true,
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

@@ -8,10 +8,10 @@ import 'fixed_band_grid.dart';
 /// being centered.
 class FixedColumnGrid extends FixedBandGrid {
   const FixedColumnGrid({
-    Color color,
-    @required int count,
-    @required double gutter,
-    @required double width,
+    Color? color,
+    required int count,
+    required double gutter,
+    required double width,
     GridAlignment alignment = GridAlignment.center,
     double offset = 0.0,
   }) : super(

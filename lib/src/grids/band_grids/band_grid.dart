@@ -7,15 +7,15 @@ import '../grid.dart';
 abstract class BandGrid extends Grid {
   final Axis axis;
   final int count;
-  final double gutter;
+  final double? gutter;
 
   double get bandSize;
 
   const BandGrid({
-    @required Color color,
-    @required this.axis,
-    @required this.count,
-    @required this.gutter,
+    required Color? color,
+    required this.axis,
+    required this.count,
+    required this.gutter,
   }) : super(color: color);
 
   @override

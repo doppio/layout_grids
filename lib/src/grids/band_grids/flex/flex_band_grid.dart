@@ -7,11 +7,11 @@ class FlexBandGrid extends BandGrid {
   final double margin;
 
   const FlexBandGrid({
-    Color color,
-    @required Axis axis,
-    @required int count,
-    @required double gutter,
-    @required this.margin,
+    Color? color,
+    required Axis axis,
+    required int count,
+    required double gutter,
+    required this.margin,
   }) : super(
           color: color,
           axis: axis,

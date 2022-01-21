@@ -7,10 +7,10 @@ class Band extends StatelessWidget {
   final Color color;
 
   const Band({
-    Key key,
-    @required this.axis,
-    @required this.size,
-    @required this.color,
+    Key? key,
+    required this.axis,
+    required this.size,
+    required this.color,
   }) : super(key: key);
 
   @override

@@ -1,3 +1,6 @@
+## [0.2.0] - 1/22/2022
+* Updated to Null Safety
+
 ## [0.1.1] - 2/8/2021
 
 A couple updates to the README:
